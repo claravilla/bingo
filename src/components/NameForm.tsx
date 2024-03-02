@@ -19,7 +19,7 @@ function NameForm() {
   };
 
   const handleOnSubmit = () => {
-    if (playerName.length !== 0) {
+    if (name.length === 0) {
       setError("Name is mandatory");
     } else {
       savePlayerName(name);
