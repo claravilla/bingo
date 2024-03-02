@@ -162,7 +162,7 @@ function newGameButton() {
     <>
       <Button
         colorScheme="green"
-        m="0 0 40px 0"
+        m="0 0 20px 0"
         size="lg"
         variant="solid"
         onClick={checkForAlert}

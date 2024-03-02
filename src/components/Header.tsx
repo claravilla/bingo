@@ -4,8 +4,8 @@ function Header() {
   return (
     <Heading
       as="h1"
-      m="70px 0 80px 0"
-      size="4xl"
+      m="10px 0 20px 0"
+      size="xl"
       color="#5882FA"
       textAlign="center"
     >

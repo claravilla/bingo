@@ -4,9 +4,8 @@ function CardHeader() {
   return (
     <Heading
       as="h2"
-      size="3xl"
-      noOfLines={1}
-      m="10px"
+      size="xl"
+      m="5px auto"
       textAlign="justify"
       fontWeight="bold"
       color="white"

@@ -22,7 +22,7 @@ function WinnerSection() {
         <Flex justify="center">
           <Button
             colorScheme="green"
-            m="20px 0 40px 0"
+            m="7px 0 12px 0"
             size="lg"
             variant="solid"
             onClick={generateurl}

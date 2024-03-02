@@ -4,11 +4,11 @@ function EmptyTile({ key, text }: { key: number; text?: string }) {
   return (
     <Center
       bg="white"
-      w="100px"
-      h="100px"
+      w="75px"
+      h="75px"
       border="1px solid red"
       color="red"
-      fontSize="2.5rem"
+      fontSize="1.5rem"
       key={key}
     >
       {text}

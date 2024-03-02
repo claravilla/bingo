@@ -10,7 +10,7 @@ function GameSection() {
   const { game } = useContext(GameContext);
   return (
     <>
-      <Flex justifyContent="center" m="20px">
+      <Flex justifyContent="center">
         <NewGameButton />
       </Flex>
       <Flex
@@ -18,9 +18,9 @@ function GameSection() {
         direction="column"
         justify="center"
         align="center"
-        m="20px auto 50px auto"
-        w="540px"
-        h="620px"
+        m="0px auto 20px auto"
+        w="395px"
+        h="445px"
       >
         <CardHeader />
         {game.length > 0 ? <BingoCard /> : <EmptyCard />}
