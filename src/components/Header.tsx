@@ -1,6 +1,9 @@
+import { useContext } from "react";
 import { Heading } from "@chakra-ui/react";
+import { PlayerNameContext } from "../context/PlayerNameContext";
 
 function Header() {
+  const { playerName } = useContext(PlayerNameContext);
   return (
     <Heading
       as="h1"
@@ -9,7 +12,7 @@ function Header() {
       color="#5882FA"
       textAlign="center"
     >
-      Welcome to Bingo!
+      {playerName === "" ? <>Welcome to Bingo!</> : <>Welcome {playerName}</>}
     </Heading>
   );
 }

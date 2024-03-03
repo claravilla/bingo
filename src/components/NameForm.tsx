@@ -28,9 +28,8 @@ function NameForm() {
 
   return (
     <>
-      <Flex w="50%" align="flex-end" m="0 0 50px 0">
+      <Flex w="50%" align="flex-end" m="0 auto">
         <FormControl>
-          <FormLabel>Name</FormLabel>
           <Input
             type="text"
             value={name}
