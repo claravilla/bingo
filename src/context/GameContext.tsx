@@ -64,6 +64,7 @@ function GameContextWrapper({ children }: any) {
       localStorage.setItem("winner", "true");
     } else {
       setWinner(false);
+      localStorage.setItem("winner", "false");
     }
   };
 
